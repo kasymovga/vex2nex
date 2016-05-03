@@ -178,7 +178,7 @@ int main(int argc, char **argv) {
 
 finish:
 	if (errno)
-		perror("Nex2Vex");
+		perror("Vex2Nex");
 
 	for (i = 0; i <= proxy_sockets_count; i++)
 		close(fds[i].fd);
